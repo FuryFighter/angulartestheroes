@@ -14,15 +14,15 @@ nav a {
   text-decoration: none;
   margin-top: 10px;
   display: inline-block;
-  background-color: #eee;
+  background-color: grey;
   border-radius: 5px;
 }
 nav a:visited, a:link {
   color: #334953;
 }
 nav a:hover {
-  color: #039be5;
-  background-color: #cfd8dc;
+  color: white;
+  background-color: darkgrey;
 }
 nav a.active {
   color: #039be5;

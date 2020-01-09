@@ -19,6 +19,7 @@ h3 {
   text-align: center;
   font-size: 50px;
   margin-bottom: 10;
+  color: #f2c763;
 }
 
 h4 {
@@ -34,7 +35,7 @@ h4 {
   font-weight: bold;
   padding: 20px;
   text-align: center;
-  color: pink;
+  color: #f2c763;
   max-height: 120px;
   min-width: 120px;
   background-color: black;
@@ -42,15 +43,15 @@ h4 {
  
 }
 
-@-webkit-keyframes BP {
-  0% {background-color: black; color:pink }
-  100% {background-color: pink; color: black }
+@-webkit-keyframes DC {
+  0% {background-color: black; color:#f2c763 }
+  100% {background-color: #f2c763; color: black }
  
 }
 
-@keyframes BP {
-  0% {background-color: black; color:pink }
-  100% {background-color: pink; color: black }
+@keyframes DC {
+  0% {background-color: black; color:#f2c763 }
+  100% {background-color: #f2c763; color: black }
  
   
 }
@@ -58,10 +59,10 @@ h4 {
 .module:hover {
   background-color: black;
   cursor: pointer;
-  color: pink;
+  color: #f2c763;
    -webkit-animation-name: BP; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: BP;
+  animation-name: DC;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
