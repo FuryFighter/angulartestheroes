@@ -31,16 +31,37 @@ h4 {
 .module {
   padding: 20px;
   text-align: center;
-  color: #eee;
+  color: pink;
   max-height: 120px;
   min-width: 120px;
-  background-color: #3f525c;
+  background-color: black;
   border-radius: 2px;
+ 
 }
+
+@-webkit-keyframes BP {
+  0% {background-color: black; color:pink }
+  100% {background-color: pink; color: black }
+ 
+}
+
+@keyframes BP {
+  0% {background-color: black; color:pink }
+  100% {background-color: pink; color: black }
+ 
+  
+}
+
 .module:hover {
-  background-color: #eee;
+  background-color: black;
   cursor: pointer;
-  color: #607d8b;
+  color: pink;
+   -webkit-animation-name: BP; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: BP;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .grid-pad {
   padding: 10px 0;
