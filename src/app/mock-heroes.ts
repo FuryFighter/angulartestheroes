@@ -6,9 +6,11 @@ export const HEROES: Hero[] = [
   { id: 13, name: 'Jennie', detail: "" },
   { id: 14, name: 'Lisa', detail: "" },
   { id: 15, name: 'Rose', detail: "" },
-  { id: 16, name: 'RubberMan', detail: "" },
-  { id: 17, name: 'Dynama', detail: "" },
-  { id: 18, name: 'Dr IQ', detail: "" },
-  { id: 19, name: 'Magma', detail: "" },
-  { id: 20, name: 'Tornado', detail: "" }
+  { id: 16, name: 'JiU', detail: "" },
+  { id: 17, name: 'SuA', detail: "" },
+  { id: 18, name: 'Siyeon', detail: "" },
+  { id: 19, name: 'Handong', detail: "" },
+  { id: 20, name: 'Yoohyeon', detail: "" },
+  { id: 19, name: 'Dami', detail: "" },
+  { id: 19, name: 'Gahyeon', detail: "" },
 ];

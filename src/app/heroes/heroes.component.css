@@ -1,44 +1,87 @@
-.heroes {
-  margin: 0 0 2em 0;
-  list-style-type: none;
-  padding: 0;
-  width: 15em;
+/* DashboardComponent's private CSS styles */
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
-.heroes li {
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+a {
+  text-decoration: none;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h3 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 10;
+}
+
+h4 {
+  position: relative;
+}
+.grid {
+  margin: 0;
+}
+.col-1-4 {
+  width: 25%;
+}
+.module {
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  color: pink;
+  max-height: 120px;
+  min-width: 120px;
+  background-color: black;
+  border-radius: 2px;
+ 
+}
+
+@-webkit-keyframes BP {
+  0% {background-color: black; color:pink }
+  100% {background-color: pink; color: black }
+ 
+}
+
+@keyframes BP {
+  0% {background-color: black; color:pink }
+  100% {background-color: pink; color: black }
+ 
+  
+}
+
+.module:hover {
+  background-color: black;
   cursor: pointer;
-  position: relative;
-  left: 0;
-  background-color: #EEE;
-  margin: .5em;
-  padding: .3em 0;
-  height: 1.6em;
-  border-radius: 4px;
+  color: pink;
+   -webkit-animation-name: BP; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: BP;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
-.heroes li:hover {
-  color: rgb(46, 78, 94);
-  opacity: 1.2;
-  background-color: #DDD;
-  left: .1em;
+.grid-pad {
+  padding: 10px 0;
 }
-.heroes li.selected {
-  background-color:rgb(135, 159, 202);
-  color: white;
+.grid-pad > [class*='col-']:last-of-type {
+  padding-right: 20px;
 }
-.heroes li.selected:hover {
-  opacity: 0.8;
-  color: white;
+@media (max-width: 600px) {
+  .module {
+    font-size: 10px;
+    max-height: 75px; }
 }
-.heroes .badge {
-  display: inline-block;
-  font-size: small;
-  color: white;
-  padding: 0.8em 0.7em 0 0.7em;
-  background-color:#405061;
-  line-height: 1em;
-  position: relative;
-  left: -1px;
-  top: -4px;
-  height: 1.8em;
-  margin-right: .8em;
-  border-radius: 4px 0 0 4px;
+@media (max-width: 1024px) {
+  .grid {
+    margin: 0;
+  }
+  .module {
+    min-width: 60px;
+  }
 }
