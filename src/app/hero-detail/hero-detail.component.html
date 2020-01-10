@@ -1,7 +1,7 @@
 <div *ngIf="hero">
   <h2>{{hero.name | uppercase}}</h2>
   <div><h3>Facts:</h3></div>
-  <div *ngIf=hero.birthday><b><span>- </span>{{hero.birthday}}</b></div>
+  <div *ngIf=hero.birthday><b><span>- geboren am </span>{{hero.birthday}}</b></div>
   <div *ngIf=hero.height>- {{hero.height}}</div>
   <div *ngIf=hero.ethnicity>- {{hero.ethnicity}}</div>
   <div *ngIf=hero.labguages>- {{hero.languages}}</div>
