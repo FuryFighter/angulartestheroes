@@ -1,5 +1,10 @@
 export class Hero {
   id: number;
   name: string;
-  detail: string;
+  birthday: string;
+  height: number;
+  ethnicity: string;
+  languages: string;
+  member_since: string;
+
 }

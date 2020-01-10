@@ -19,6 +19,6 @@ export class HeroesComponent implements OnInit {
 
   getHeroes(): void {
     this.heroService.getHeroes()
-    .subscribe(heroes => this.heroes = heroes.slice(5, 12));
+    .subscribe(heroes => this.heroes = heroes.slice(4, 11));
   }
 }

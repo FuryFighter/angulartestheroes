@@ -1,16 +1,16 @@
 import { Hero } from './hero';
 
 export const HEROES: Hero[] = [
-  { id: 11, name: 'lele', detail: "" },
-  { id: 12, name: 'Jisoo', detail: "" },
-  { id: 13, name: 'Jennie', detail: "" },
-  { id: 14, name: 'Lisa', detail: "" },
-  { id: 15, name: 'Rose', detail: "" },
-  { id: 16, name: 'JiU', detail: "" },
-  { id: 17, name: 'SuA', detail: "" },
-  { id: 18, name: 'Siyeon', detail: "" },
-  { id: 19, name: 'Handong', detail: "" },
-  { id: 20, name: 'Yoohyeon', detail: "" },
-  { id: 19, name: 'Dami', detail: "" },
-  { id: 19, name: 'Gahyeon', detail: "" },
+  
+  { id: 2, name: 'Jisoo', birthday: "10.07.1999", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 3, name: 'Jennie',birthday: "", height: 0, ethnicity: "", languages: "", member_since: ""  },
+  { id: 4, name: 'Lisa',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 5, name: 'Rose',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 6, name: 'JiU',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 7, name: 'SuA',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 8, name: 'Siyeon',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 9, name: 'Handong',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 10, name: 'Yoohyeon',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 11, name: 'Dami',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
+  { id: 12, name: 'Gahyeon',birthday: "", height: 0, ethnicity: "", languages: "", member_since: "" },
 ];
