@@ -1,8 +1,9 @@
 /* DashboardComponent's private CSS styles */
 [class*='col-'] {
   float: left;
-  padding-right: 20px;
-  padding-bottom: 20px;
+  padding-right: 0.2em;
+  padding-left: 0.2em;
+  padding-bottom: 0.4em;
 }
 [class*='col-']:last-of-type {
   padding-right: 0;
@@ -17,7 +18,7 @@ a {
 }
 h3 {
   text-align: center;
-  font-size: 50px;
+  font-size: 3em;
   margin-bottom: 10;
   color: #f2c763;
 }
@@ -33,13 +34,14 @@ h4 {
 }
 .module {
   font-weight: bold;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   color: #f2c763;
   max-height: 120px;
   min-width: 120px;
   background-color: black;
   border-radius: 2px;
+  font-size: 1.5em;
  
 }
 
@@ -60,7 +62,7 @@ h4 {
   background-color: black;
   cursor: pointer;
   color: #f2c763;
-   -webkit-animation-name: BP; /* Safari 4.0 - 8.0 */
+   -webkit-animation-name: DC; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
   animation-name: DC;
   animation-duration: 0.5s;
@@ -68,10 +70,10 @@ h4 {
   animation-fill-mode: forwards;
 }
 .grid-pad {
-  padding: 10px 0;
+  padding: 0.2em 0;
 }
 .grid-pad > [class*='col-']:last-of-type {
-  padding-right: 20px;
+  padding-right: 0.2em;
 }
 @media (max-width: 600px) {
   .module {
