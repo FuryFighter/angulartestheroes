@@ -6,7 +6,8 @@
   padding-bottom: 0.4em;
 }
 [class*='col-']:last-of-type {
-  padding-right: 0;
+  padding-right: 0.2em;
+  
 }
 a {
   text-decoration: none;
@@ -30,7 +31,7 @@ h4 {
   margin: 0;
 }
 .col-4-11 {
-  width: 25%;
+  width: 14.28%;
 }
 .module {
   font-weight: bold;
@@ -47,15 +48,14 @@ h4 {
 
 @-webkit-keyframes DC {
   0% {background-color: black; color:#f2c763 }
-  100% {background-color: #f2c763; color: black }
+  100% {background-color: #f2c763; color: black; }
  
 }
 
 @keyframes DC {
-  0% {background-color: black; color:#f2c763 }
-  100% {background-color: #f2c763; color: black }
+  0% {background-color: black; color:#f2c763}
+  100% {background-color: #f2c763; color: black;}
  
-  
 }
 
 .module:hover {
